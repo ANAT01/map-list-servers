@@ -1,6 +1,6 @@
 {
   "wms": {
-    "url": "http://maps.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
+    "url": "maps.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
     "params": {
       "format": "image/png32",
       "crs": "EPSG:3857"

@@ -59,6 +59,14 @@ buildpath = {
     "grouppath": args.buildpath + "groups/",
 }
 
+
+def dict2string(dictionary, separator):
+    tmplist = []
+    for tmpkey in dictionary.keys():
+        tmplist.append(tmpkey + '=' + dictionary[tmpkey])
+    return str(separator).join(tmplist)
+
+
 # Create new path
 for var, path in buildpath.iteritems():
     checkdir(path)
@@ -74,7 +82,7 @@ for filename in os.listdir(args.datapath):
         newsourcepath = buildpath['sourcepath'] + filename[:filename.rfind('.')]
 
         metadata_general_id = filename[:filename.rfind('.')]
-        metadata_ui_group = filename[:filename.rfind('_')]
+        metadata_ui_group = filename[:filename.find('_')]
         metadata_ui_alias = data['label']
         existsicon = findicon(filename[:filename.rfind('.')])
         metadata_ui_icon = existsicon[:existsicon.rfind('.')] + ".png"
@@ -95,10 +103,18 @@ for filename in os.listdir(args.datapath):
 
             metadata.set('tms', 'url', 'http://' + data['tms']['url'])
 
+        # Create [tms] section of metadata.ini
+        if 'wms' in data:
+            metadata_general_type = 'wms'
+            metadata.add_section('wms')
+            metadata.set('wms', 'url', 'http://' + data['wms']['url'])
+            metadata.set('wms', 'params', dict2string(data['wms']['params'], '&'))
+            metadata.set('wms', 'layers', ','.join(str(v) for v in data['wms']['layers']))
+
         # Create [general] section of metadata.ini
         metadata.add_section('general')
         metadata.set('general', 'id', metadata_general_id)
-        metadata.set('general', 'type', metadata_general_type)
+        metadata.set('general', 'type', metadata_general_type.upper())
         metadata.set('general', 'is_contrib', 'False')
 
         # Create [ui] section of metadata.ini
@@ -129,27 +145,28 @@ for filename in os.listdir(args.datapath):
         # GROUP CREATING
         group = filename[:filename.find("_")]
         newgrouppath = buildpath["grouppath"] + group
-        checkdir(newgrouppath)
+        if not os.path.exists(newgrouppath):
+            checkdir(newgrouppath)
 
-        # Create [general] section for group directory
-        groupini.add_section('general')
-        groupini.set('general', 'id', group)
+            # Create [general] section for group directory
+            groupini.add_section('general')
+            groupini.set('general', 'id', group)
 
-        # Create [ui] section for group directory
-        groupini.add_section('ui')
-        groupini.set('ui', 'alias', group)
-        groupini.set('ui', 'icon', existsicon)
+            # Create [ui] section for group directory
+            groupini.add_section('ui')
+            groupini.set('ui', 'alias', group)
+            groupini.set('ui', 'icon', group + '.png')
 
-        subprocess.Popen(
-            "convert -background none " + args.imgpath + existsicon + " -resize '24x24' " +
-            newgrouppath + '/' + findicon(os.path.splitext(filename)[0]),
-            shell=True
-        ).wait()
+            subprocess.Popen(
+                "convert -background none " + args.imgpath + findicon(filename[:filename.find('_')]) +
+                " -resize '24x24' " + newgrouppath + '/' + group + '.png',
+                shell=True
+            ).wait()
 
-        # Write groupini to file
-        with open(newgrouppath + '/' + group + '.ini', 'wb') as configfile:
-            try:
-                groupini.write(configfile)
-                print bcolors.OKGREEN + "[OK] Group created: " + bcolors.NC + group
-            except:
-                print bcolors.FAIL + "[ERROR] " + bcolors.NC + "SOMETHING ERROR"
+            # Write groupini to file
+            with open(newgrouppath + '/' + group + '.ini', 'wb') as configfile:
+                try:
+                    groupini.write(configfile)
+                    print bcolors.OKGREEN + "[OK] Group created: " + bcolors.NC + group
+                except:
+                    print bcolors.FAIL + "[ERROR] " + bcolors.NC + "SOMETHING ERROR"

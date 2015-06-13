@@ -1,6 +1,6 @@
 {
   "wms": {
-    "url": "http://sedac.ciesin.org/geoserver/ows?",
+    "url": "sedac.ciesin.org/geoserver/ows?",
     "params": {
       "format": "image/png",
       "crs": "EPSG:4326"
