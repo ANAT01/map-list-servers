@@ -1,0 +1,6 @@
+{
+  "tms": {
+    "url": "server.arcgisonline.com/ArcGIS/rest/services/I3_Imagery_Prime_World/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Arcgis I3_Imagery_Prime_World"
+}

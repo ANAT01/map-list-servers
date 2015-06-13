@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "tms": {
+      "type": "object",
+      "properties": {
+        "mirrors": {
+          "type": "array"
+        },
+        "version": {
+          "type": "array"
+        },
+        "url": {
+          "type": "string"
+        },
+        "proj": {
+          "type": "string"
+        },
+        "zmin": {
+          "type": "number"
+        },
+        "zmax": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "url"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "l12n": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "label"
+  ]
+}

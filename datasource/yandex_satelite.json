@@ -1,0 +1,20 @@
+{
+  "tms": {
+    "mirrors": [
+      "sat01",
+      "sat02",
+      "sat03",
+      "sat04"
+    ],
+    "url": "[mirrors].maps.yandex.net/tiles?l=sat&x={x}&y={y}&z={z}",
+    "proj": "+proj=merc +a=6378137 +b=6356752 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+  },
+  "label": "Yandex Satelite",
+  "l12n": {
+    "ru": "Яндекс Спутник"
+  },
+  "license": {
+    "copyright_text": "© Яндекс",
+    "terms_of_use": "https://legal.yandex.ru/maps_termsofuse/?lang=ru"
+  }
+}

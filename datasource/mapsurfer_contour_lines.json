@@ -1,0 +1,18 @@
+{
+  "tms": {
+    "url": "korona.geog.uni-heidelberg.de/tiles/asterc/x={x}&y={y}&z={z}"
+  },
+  "zmin": 13,
+  "zmax": 17,
+  "label": "MapSurfer ASTER GDEM contour lines",
+  "l12n": {
+    "ru": "MapSurfer Изолинии рельефа (ASTER GDEM)"
+  },
+  "license": {
+    "name": "CC-BY-SA 2.0",
+    "link": "http://creativecommons.org/licenses/by-sa/2.0/",
+    "copyright_text": "ASTER GDEM is a product of METI and NASA, Imagery GIScience Research Group @ Heidelberg University",
+    "copyright_link": "https://lpdaac.usgs.gov/products/aster_policies",
+    "terms_of_use": "http://korona.geog.uni-heidelberg.de/contact.html"
+  }
+}

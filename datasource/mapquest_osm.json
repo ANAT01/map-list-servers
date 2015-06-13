@@ -1,0 +1,24 @@
+{
+  "tms": {
+    "url": "[mirrors].otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg",
+    "mirrors": [
+      "otile1",
+      "otile2",
+      "otile3",
+      "otile4",
+      "ttiles01",
+      "ttiles02",
+      "ttiles03",
+      "ttiles04"
+    ],
+    "zmax": 19
+  },
+  "label": "MapQuest OSM",
+  "license": {
+    "name": "Community Edition License",
+    "link": "http://developer.mapquest.com/web/info/terms-of-use",
+    "copyright_text": "Tiles Courtesy of MapQuest, Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency",
+    "copyright_link": "http://www.mapquest.com",
+    "terms_of_use": "http://developer.mapquest.com/web/products/open/map#terms"
+  }
+}

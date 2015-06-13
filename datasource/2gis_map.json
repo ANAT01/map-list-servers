@@ -1,0 +1,21 @@
+{
+  "tms": {
+    "mirrors": [
+      "tile1",
+      "tile2",
+      "tile3"
+    ],
+    "url": "[mirrors].maps.2gis.com/tiles?x={x}&y={y}&z={z}&v=[version]",
+    "version": [
+      "1.1"
+    ]
+  },
+  "label": "2gis Map",
+  "l12n": {
+    "ru": "2gis Карта"
+  },
+  "license": {
+    "copyright_text": "© 2ГИС",
+    "terms_of_use": "http://law.2gis.ru/licensing-agreement/"
+  }
+}

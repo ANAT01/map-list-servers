@@ -1,0 +1,20 @@
+{
+  "wms": {
+    "url": "http://sedac.ciesin.org/geoserver/ows?",
+    "params": {
+      "format": "image/png",
+      "crs": "EPSG:4326"
+    },
+    "layers": [
+      "ndh:ndh-earthquake-distribution-peak-ground-acceleration"
+    ]
+  },
+  "label": "NASA SEDAC Earthquake Hazard Distribution - Peak Ground Acceleration",
+  "l12n": {
+    "ru": "Распределение землетрясений NASA SEDAC - пиковое ускорение"
+  },
+  "license": {
+    "copyright_text": "NASA, CIESIN",
+    "terms_of_use": "http://sedac.ciesin.columbia.edu/privacy"
+  }
+}

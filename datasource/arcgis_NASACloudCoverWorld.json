@@ -1,0 +1,6 @@
+{
+  "tms": {
+    "url": "server.arcgisonline.com/ArcGIS/rest/services/NASA_CloudCover_World/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Arcgis NASA_CloudCover_World"
+}

@@ -1,0 +1,36 @@
+{
+  "gdal": {
+    "GDAL_WMS": {
+      "BandsCount": "4",
+      "Projection": "EPSG:3857",
+      "Service": {
+        "Layers": "show:120",
+        "@name": "AGS",
+        "ServerUrl": "http://api.atlas.mos.ru/arcgis/rest/services/Basemaps/egipdata/MapServer",
+        "BBoxOrder": "xyXY",
+        "ImageSR": "102100",
+        "ImageFormat": "png",
+        "Transparent": "true"
+      },
+      "BlockSizeX": "256",
+      "BlockSizeY": "256",
+      "DataWindow": {
+        "LowerRightX": "2.0037507067382812E7",
+        "LowerRightY": "5039694.577209473",
+        "SizeX": "40075014",
+        "SizeY": "11940059",
+        "UpperLeftY": "1.6979753644836426E7",
+        "UpperLeftX": "-2.0037507067199707E7"
+      },
+      "ClampRequests": "false"
+    }
+  },
+  "label": "eAtlas EGIP",
+  "l12n": {
+    "ru": "Электронный атлас Москвы, ЕГИП"
+  },
+  "license": {
+    "copyright_text": "© ЗАО Геоцентр-Консалтинг, © ГУП Мосгоргеотрест",
+    "terms_of_use": "http://eatlas.mos.ru/docs/conditions_ru.html"
+  }
+}

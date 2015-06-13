@@ -1,0 +1,6 @@
+{
+  "tms": {
+    "url": "server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Arcgis World_Physical_Map"
+}

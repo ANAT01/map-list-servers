@@ -1,0 +1,14 @@
+{
+  "tms": {
+    "url": "tile.thunderforest.com/outdoors/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "label": "OSM TF Landscape",
+  "license": {
+    "name": "CC-BY-SA 2.0",
+    "link": "http://creativecommons.org/licenses/by-sa/2.0/",
+    "copyright_text": "Maps © Thunderforest, Data © OpenStreetMap contributors",
+    "copyright_link": "https://www.openstreetmap.org/copyright",
+    "terms_of_use": "http://www.thunderforest.com/terms/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tms": {
+    "url": "tile.osmz.ru/veloroad/{z}/{x}/{y}.png",
+    "zmin": 6,
+    "zmax": 15
+  },
+  "label": "OSM Veloroad",
+  "license": {
+    "name": "CC-BY-SA 2.0",
+    "link": "http://creativecommons.org/licenses/by-sa/2.0/",
+    "copyright_text": "Data © OpenStreetMap contributors, CC-BY-SA | Tiles © Ilya Zverev",
+    "copyright_link": "https://www.openstreetmap.org/copyright",
+    "terms_of_use": "http://wiki.openstreetmap.org/wiki/Tile_usage_policy"
+  }
+}
