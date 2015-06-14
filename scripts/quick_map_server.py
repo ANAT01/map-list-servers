@@ -8,6 +8,7 @@ import json
 import ConfigParser
 import subprocess
 import re
+import random
 
 
 class bcolors:
@@ -98,7 +99,7 @@ for filename in os.listdir(args.datapath):
             replacelist = []
             for var in re.findall('\[(\w+)\]', data['tms']['url']):
                 if var == 'mirrors' and var in data['tms']:
-                    replacelist.append(('[' + var + ']', data['tms'][var][0]))
+                    replacelist.append(('[' + var + ']', random.choice(data['tms'][var])))
                 if var == 'version' and var in data['tms']:
                     replacelist.append(('[' + var + ']', data['tms'][var][-1]))
 
