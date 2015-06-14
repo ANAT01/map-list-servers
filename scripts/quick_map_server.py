@@ -43,7 +43,7 @@ def findicon(find_name):
     if find_name.rfind("_") > 0:
         return findicon(find_name[:find_name.rfind("_")])
     else:
-        return "default.png"
+        return "default.svg"
 
 
 def checkdir(directorypath):
@@ -82,7 +82,11 @@ for filename in os.listdir(args.datapath):
         newsourcepath = buildpath['sourcepath'] + filename[:filename.rfind('.')]
 
         metadata_general_id = filename[:filename.rfind('.')]
-        metadata_ui_group = filename[:filename.find('_')]
+        if filename.find("_") > 0:
+            group = filename[:filename.find("_")]
+        else:
+            group = filename[:filename.find(".")]
+        metadata_ui_group = group
         metadata_ui_alias = data['label']
         existsicon = findicon(filename[:filename.rfind('.')])
         metadata_ui_icon = existsicon[:existsicon.rfind('.')] + ".png"
@@ -143,7 +147,10 @@ for filename in os.listdir(args.datapath):
 
                 # ------------------
         # GROUP CREATING
-        group = filename[:filename.find("_")]
+        if filename.find("_") > 0:
+            group = filename[:filename.find("_")]
+        else:
+            group = filename[:filename.find(".")]
         newgrouppath = buildpath["grouppath"] + group
         if not os.path.exists(newgrouppath):
             checkdir(newgrouppath)
