@@ -1,0 +1,10 @@
+{
+  "tms": {
+    "mirrors": [
+      "nt0",
+      "nt1"
+    ],
+    "url": "[mirrors].reestri.gov.ge/NGCacheCombined?x={x}&y={y}&z={z}&l=CMB_ORTHO_NAPR"
+  },
+  "label": "Georgia Ortho"
+}

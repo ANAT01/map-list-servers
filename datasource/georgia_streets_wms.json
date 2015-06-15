@@ -1,0 +1,15 @@
+{
+  "wms": {
+    "params": {
+      "transperent": "true",
+      "tiled": "false",
+      "format": "image/png",
+      "srs": "EPSG:900913"
+    },
+    "layers": [
+      "ADR_STREETS"
+    ],
+    "url": "nv2.napr.gov.ge/geoserver/NGDB/wms"
+  },
+  "label": "Georgia Streets [WMS]"
+}

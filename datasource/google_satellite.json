@@ -1,0 +1,22 @@
+{
+  "tms": {
+    "mirrors": [
+      "khm0",
+      "khm1",
+      "khm2",
+      "khm3"
+    ],
+    "version": [
+      "174"
+    ],
+    "url": "[mirrors].googleapis.com/kh?v=[version]&x={x}&y={y}&z={z}"
+  },
+  "label": "Google Satellite",
+  "license": {
+    "name": "",
+    "link": "https://developers.google.com/maps/licensing",
+    "copyright_text": "",
+    "copyright_link": "http://www.google.com/intl/en-us/help/legalnotices_maps.html",
+    "terms_of_use": "https://developers.google.com/maps/terms"
+  }
+}
