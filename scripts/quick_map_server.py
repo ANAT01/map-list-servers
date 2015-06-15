@@ -107,6 +107,10 @@ for filename in os.listdir(args.datapath):
                 data['tms']['url'] = data['tms']['url'].replace(search, replace)
 
             metadata.set('tms', 'url', 'http://' + data['tms']['url'])
+            if 'crs' in data['tms']:
+                metadata.set('tms', 'crs', data['tms']['crs'])
+            if 'proj' in data['tms']:
+                metadata.set('tms', 'proj', data['tms']['proj'])
 
         # Create [tms] section of metadata.ini
         if 'wms' in data:
