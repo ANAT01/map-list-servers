@@ -97,20 +97,19 @@ for filename in os.listdir(args.datapath):
             metadata_general_type = 'tms'
             metadata.add_section('tms')
             replacelist = []
-            for var in re.findall('\[(\w+)\]', data['tms']['url']):
-                if var == 'mirrors' and var in data['tms']:
-                    replacelist.append(('[' + var + ']', random.choice(data['tms'][var])))
-                if var == 'version' and var in data['tms']:
-                    replacelist.append(('[' + var + ']', data['tms'][var][-1]))
+            for parkey, parval in data['tms'].iteritems():
+                if parkey == 'url':
+                    for var in re.findall('\[(\w+)\]', data['tms']['url']):
+                        if var == 'mirrors' and var in data['tms']:
+                            replacelist.append(('[' + var + ']', random.choice(data['tms'][var])))
+                        if var == 'version' and var in data['tms']:
+                            replacelist.append(('[' + var + ']', data['tms'][var][-1]))
 
-            for search, replace in replacelist:
-                data['tms']['url'] = data['tms']['url'].replace(search, replace)
-
-            metadata.set('tms', 'url', 'http://' + data['tms']['url'])
-            if 'crs' in data['tms']:
-                metadata.set('tms', 'crs', data['tms']['crs'])
-            if 'proj' in data['tms']:
-                metadata.set('tms', 'proj', data['tms']['proj'])
+                    for search, replace in replacelist:
+                        data['tms']['url'] = data['tms']['url'].replace(search, replace)
+                    metadata.set('tms', 'url', 'http://' + data['tms']['url'])
+                else:
+                    metadata.set('tms', parkey, parval)
 
         # Create [tms] section of metadata.ini
         if 'wms' in data:
@@ -130,6 +129,9 @@ for filename in os.listdir(args.datapath):
         metadata.add_section('ui')
         metadata.set('ui', 'group', metadata_ui_group)
         metadata.set('ui', 'alias', metadata_ui_alias)
+        if 'l12n' in data:
+            for key, val in data['l12n'].iteritems():
+                metadata.set('ui', 'alias[' + key.encode('utf-8') + ']', val.encode('cp1251'))
         metadata.set('ui', 'icon', metadata_ui_icon)
 
         # Check newsourcepath exists
@@ -148,7 +150,7 @@ for filename in os.listdir(args.datapath):
                 metadata.write(configfile)
                 print bcolors.OKGREEN + "[OK] Source created: " + bcolors.NC + metadata_general_id
             except:
-                print bcolors.FAIL + "[ERROR] " + bcolors.NC + "SOMETHING ERROR"
+                print bcolors.FAIL + "[ERROR] " + bcolors.NC + "SOMETHING ERROR WITH " + filename
 
                 # ------------------
         # GROUP CREATING
