@@ -1,0 +1,16 @@
+{
+  "tms": {
+    "url": "212.26.144.110/tile2/map_100000/{z}/{x}/{y}.jpg",
+    "y_origin_top": 0,
+    "zmin": 5,
+    "zmax": 14
+  },
+  "label": "Ukraine cadastre Topo",
+  "l12n": {
+    "ru": "ПКК Украины. Топо 1:100 000"
+  },
+  "license": {
+    "link": "http://map.land.gov.ua",
+    "copyright_text": "© 2014 Всі права захищені. ЦДЗК. Версія 1.13."
+  }
+}

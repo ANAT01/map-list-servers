@@ -1,0 +1,16 @@
+{
+  "tms": {
+    "url": "212.26.144.110/tile2/orto_10000/{z}/{x}/{y}.jpg",
+    "y_origin_top": 0,
+    "zmin": 5,
+    "zmax": 16
+  },
+  "label": "Ukraine Ortho",
+  "l12n": {
+    "ru": "ПКК Украины. Ортофотоплан 1:10 000"
+  },
+  "license": {
+    "link": "http://map.land.gov.ua",
+    "copyright_text": "© 2014 Всі права захищені. ЦДЗК. Версія 1.13."
+  }
+}

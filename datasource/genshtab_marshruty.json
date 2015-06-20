@@ -1,0 +1,9 @@
+{
+  "tms": {
+    "url": "in7ane.com/topomaps/tiles/{z}/{x}/{y}.jpg"
+  },
+  "label": "Topomap [marshruty.ru]",
+  "l12n": {
+    "ru": "Топокарты[marshruty.ru]"
+  }
+}

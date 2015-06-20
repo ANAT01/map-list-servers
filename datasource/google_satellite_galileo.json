@@ -1,0 +1,26 @@
+{
+  "tms": {
+    "mirrors": [
+      "khms0",
+      "khms1",
+      "khms2",
+      "khms3"
+    ],
+    "version": [
+      "162"
+    ],
+    "url": "[mirrors].google.com/kh/v=162&src=app&x={x}&y={y}&z={z}&s=Galileo5",
+    "zmax": 20
+  },
+  "label": "Google Satellite [Galileo5]",
+  "l12n": {
+    "ru": "Снимки Google [Galileo5]"
+  },
+  "license": {
+    "name": "",
+    "link": "https://developers.google.com/maps/licensing",
+    "copyright_text": "",
+    "copyright_link": "http://www.google.com/intl/en-us/help/legalnotices_maps.html",
+    "terms_of_use": "https://developers.google.com/maps/terms"
+  }
+}

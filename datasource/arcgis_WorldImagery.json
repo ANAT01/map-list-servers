@@ -3,5 +3,8 @@
     "url": "server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
   },
   "zmax": 17,
-  "label": "Arcgis World_Imagery"
+  "label": "Arcgis World_Imagery",
+  "l12n": {
+    "ru": "Снимки ArcGIS Online"
+  }
 }
