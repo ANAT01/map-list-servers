@@ -1,6 +1,6 @@
 {
   "tms": {
-    "url": "ecn.dynamic.[mirrors].tiles.virtualearth.net/tiles/svi{q}.jpeg?g=0",
+    "url": "ecn.[mirrors].tiles.virtualearth.net/tiles/svi{q}.jpeg?g=0",
     "mirrors": [
       "t0",
       "t1",

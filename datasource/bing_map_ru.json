@@ -1,6 +1,6 @@
 {
   "tms": {
-    "url": "ecn.dynamic.[mirrors].tiles.virtualearth.net/comp/CompositionHandler/{q}?mkt=ru-ru&it=A,G,VE,BX,L,LA",
+    "url": "ecn.dynamic.[mirrors].tiles.virtualearth.net/comp/CompositionHandler/{q}?mkt=ru-ru&it=G,VE,BX,L,LA",
     "mirrors": [
       "t0",
       "t1",
