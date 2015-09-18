@@ -131,7 +131,8 @@ for filename in os.listdir(args.datapath):
         metadata.set('ui', 'alias', metadata_ui_alias)
         if 'l12n' in data:
             for key, val in data['l12n'].iteritems():
-                metadata.set('ui', 'alias[' + key.encode('utf-8') + ']', val.encode('cp1251'))
+                #metadata.set('ui', 'alias[' + key.encode('utf-8') + ']', val.encode('cp1251'))
+                pass
         metadata.set('ui', 'icon', metadata_ui_icon)
 
         # Check newsourcepath exists
