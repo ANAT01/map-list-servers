@@ -1,0 +1,11 @@
+{
+  "tms": {
+    "mirrors": [
+      "a",
+      "b"
+    ],
+    "url": "[mirrors].tile.opencyclemap.org/cycle/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "label": "OSM OpenCycleMap"
+}

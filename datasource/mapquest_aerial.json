@@ -3,7 +3,10 @@
     "url": "otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg",
     "zmax": 19
   },
-  "label": "MapQuest Aerial",
+  "label": "MapQuest Satellite",
+  "l12n": {
+    "ru": "MapQuest спутниковые снимки"
+  },
   "license": {
     "name": "Community Edition License",
     "link": "http://developer.mapquest.com/web/info/terms-of-use",

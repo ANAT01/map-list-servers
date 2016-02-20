@@ -1,0 +1,11 @@
+{
+  "tms": {
+    "url": "tiles.openpistemap.org/nocontours/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "type": "overlay",
+  "label": "OSM Piste",
+  "l12n": {
+    "ru": "OSM Лыжня"
+  }
+}

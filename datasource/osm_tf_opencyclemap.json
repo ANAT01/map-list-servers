@@ -1,6 +1,11 @@
 {
   "tms": {
-    "url": "tile.thunderforest.com/cycle/{z}/{x}/{y}.png",
+    "mirrors": [
+      "a",
+      "b",
+      "c"
+    ],
+    "url": "[mirrors].tile.thunderforest.com/cycle/{z}/{x}/{y}.png",
     "zmax": 19
   },
   "label": "OSM TF OpenCycleMap",

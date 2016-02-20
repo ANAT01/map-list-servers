@@ -1,0 +1,15 @@
+{
+  "tms": {
+    "mirrors": [
+      "tile"
+    ],
+    "url": "[mirrors].digimap.ru/rumap/{z}/{x}/{y}.png"
+  },
+  "label": "Digimap.ru",
+  "l12n": {
+    "ru": "Геоцентр-консалтинг"
+  },
+  "license": {
+    "copyright_text": "© ЗАО Геоцентр-консалтинг"
+  }
+}
