@@ -6,14 +6,14 @@
       "crs": "EPSG:3857"
     },
     "layers": [
-      18,
-      19,
-      20
+      14,
+      15,
+      16
     ]
   },
-  "label": "PKK [17] Block",
+  "label": "PKK Block",
   "l12n": {
-    "ru": "ПКК [17] Квартал"
+    "ru": "ПКК Квартал"
   },
   "license": {
     "copyright_text": "ПКК © Росреестр 2010-2015",

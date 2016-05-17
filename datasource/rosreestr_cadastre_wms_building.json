@@ -6,17 +6,17 @@
       "crs": "EPSG:3857"
     },
     "layers": [
-      26,
-      27,
-      28,
-      29,
-      30,
-      31
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
     ]
   },
-  "label": "PKK [25] Building",
+  "label": "PKK Building",
   "l12n": {
-    "ru": "ПКК [25] ОКС"
+    "ru": "ПКК ОКС"
   },
   "license": {
     "copyright_text": "ПКК © Росреестр 2010-2015",
