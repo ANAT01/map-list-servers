@@ -1,17 +1,11 @@
 {
   "wms": {
-    "url": "maps.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
+    "url": "pkk5.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
     "params": {
       "format": "image/png32",
       "crs": "EPSG:3857"
     },
     "layers": [
-      1,
-      2,
-      3,
-      5,
-      6,
-      7,
       9,
       10,
       11,
@@ -19,19 +13,12 @@
       13,
       14,
       15,
-      16,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24
+      16
     ]
   },
-  "label": "Rosreestr Cadastre (old server)",
+  "label": "PKK [8] Area",
   "l12n": {
-    "ru": "Кадастровое деление (старый сервер)"
+    "ru": "ПКК [8] Район"
   },
   "license": {
     "copyright_text": "ПКК © Росреестр 2010-2015",
