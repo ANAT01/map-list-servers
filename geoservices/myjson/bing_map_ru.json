@@ -1,0 +1,21 @@
+{
+  "tms": {
+    "url": "ecn.dynamic.[mirrors].tiles.virtualearth.net/comp/CompositionHandler/{q}?mkt=ru-ru&it=G,VE,BX,L,LA",
+    "mirrors": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5",
+      "t6",
+      "t7"
+    ],
+    "zmin": 1,
+    "zmax": 19
+  },
+  "label": "Bing Map [ru]",
+  "l12n": {
+    "ru": "Карта Bing [ru]"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "tms": {
+    "url": "ecn.[mirrors].tiles.virtualearth.net/tiles/svi{q}.jpeg?g=0",
+    "mirrors": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5",
+      "t6",
+      "t7"
+    ],
+    "zmin": 1,
+    "zmax": 18
+  },
+  "label": "Bing Satellite Bird's Eye North",
+  "l12n": {
+    "ru": "Снимки Bing Bird's Eye Север"
+  }
+}

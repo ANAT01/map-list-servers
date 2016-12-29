@@ -1,0 +1,10 @@
+{
+  "tms": {
+    "url": "maps.kosmosnimki.ru/TileService.ashx?Request=gettile&LayerName=4F9F7CCCCBBC4BD08469F58C02F17AE4&MapName=1D30C72D02914C5FB90D1D448159CAB6&apikey=L5VW1QBBHJ&crs=epsg:3857&z={z}&x={x}&y={y}",
+    "zmax": 19
+  },
+  "label": "Kosmosnimki.ru Terrain",
+  "l12n": {
+    "ru": "Рельеф Kosmosnimki.ru"
+  }
+}

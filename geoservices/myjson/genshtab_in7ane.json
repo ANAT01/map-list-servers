@@ -1,0 +1,9 @@
+{
+  "tms": {
+    "url": "www.in7ane.com/topomaps/tiles/{z}/{x}/{y}.jpg"
+  },
+  "label": "Genshtab [in7ame.com]",
+  "l12n": {
+    "ru": "Генштаб [in7ame.com]"
+  }
+}

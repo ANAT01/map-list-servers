@@ -1,0 +1,21 @@
+{
+  "tms": {
+    "url": "[mirrors].tiles.mapbox.com/[version]/examples.map-20v6611k/{z}/{x}/{y}.png",
+    "mirrors": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "version": [
+      "v1",
+      "v2",
+      "v3"
+    ],
+    "zmax": 19
+  },
+  "label": "MapBox Gray",
+  "l12n": {
+    "ru": "Спутник Карта"
+  }
+}

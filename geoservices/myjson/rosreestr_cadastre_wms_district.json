@@ -1,0 +1,26 @@
+{
+  "wms": {
+    "url": "pkk5.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
+    "params": {
+      "format": "image/png32",
+      "crs": "EPSG:3857"
+    },
+    "layers": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "label": "PKK District",
+  "l12n": {
+    "ru": "ПКК Округ"
+  },
+  "license": {
+    "copyright_text": "ПКК © Росреестр 2010-2015",
+    "terms_of_use": "http://maps.rosreestr.ru/PortalOnline/terms.html"
+  }
+}

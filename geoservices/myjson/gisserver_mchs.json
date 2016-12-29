@@ -1,0 +1,29 @@
+{
+  "wms": {
+    "url": "gisserver.info/GISWebServiceSE/service.php",
+    "params": {
+      "format": "image/png",
+      "crs": "EPSG:3857",
+      "IgnoreGetMapUrl": "1"
+    },
+    "layers": [
+      "emer_fps",
+      "emer_psf",
+      "emer_svf",
+      "acfemercom",
+      "vgsh_emercom",
+      "nuclear_power",
+      "hydroelectric_power",
+      "thermoelectric_power",
+      "substation",
+      "toxic_factory",
+      "toxic_users",
+      "industrial",
+      "gas_factory"
+    ]
+  },
+  "label": "EMERCOM of Russia",
+  "l12n": {
+    "ru": "МЧС России"
+  }
+}

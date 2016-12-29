@@ -1,0 +1,6 @@
+{
+  "tms": {
+    "url": "server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Arcgis World_Shaded_Relief"
+}

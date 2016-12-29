@@ -1,0 +1,20 @@
+{
+  "wms": {
+    "url": "sedac.ciesin.org/geoserver/ows?",
+    "params": {
+      "format": "image/png",
+      "crs": "EPSG:4326"
+    },
+    "layers": [
+      "ndh:ndh-earthquake-frequency-distribution"
+    ]
+  },
+  "label": "NASA SEDAC Earthquake Hazard Frequency and Distribution",
+  "l12n": {
+    "ru": "Частота и распределение землетрясений NASA SEDAC"
+  },
+  "license": {
+    "copyright_text": "NASA, CIESIN",
+    "terms_of_use": "http://sedac.ciesin.columbia.edu/privacy"
+  }
+}

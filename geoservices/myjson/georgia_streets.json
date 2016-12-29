@@ -1,0 +1,10 @@
+{
+  "tms": {
+    "mirrors": [
+      "nt0",
+      "nt1"
+    ],
+    "url": "[mirrors].reestri.gov.ge/NGCache?x={x}&y={y}&z={z}&l=NG_NAPR_STREETS"
+  },
+  "label": "Georgia Streets"
+}

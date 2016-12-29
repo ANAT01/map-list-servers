@@ -2,26 +2,28 @@
 providers:
   - 
       type: tms
+      param:
+        url: "[sat01, sat02, sat03, sat04].maps.yandex.net/tiles?l=sat&x={x}&y={y}&z={z}"
+        srs: +proj=merc +a=6378137 +b=6356752 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs
+        z_min: 0
+        z_max: 22
+        y_origin_top: true
       name:
         en: Yandex Satelite
         ru: Яндекс Спутник
-      url: "[sat01, sat02, sat03, sat04].maps.yandex.net/tiles?l=sat&x={x}&y={y}&z={z}"
       tag: color, satelite, yandex, basemap
-      srs: +proj=merc +a=6378137 +b=6356752 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs
-      z_min: 0
-      z_max: 22
-      y_origin_top: true
   -
       type: tms
+      param:
+        url: "wvec.maps.yandex.net/?l=wmap&x={x}&y={y}&z={z}"
+        srs: "+proj=merc +a=6378137 +b=6356752 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
+        z_min: 0
+        z_max: 22
+        y_origin_top: true
       name:
         en: Yandex Map
         ru: Яндекс Карта
-      url: "wvec.maps.yandex.net/?l=wmap&x={x}&y={y}&z={z}"
       tag: color, map, basemap
-      srs: "+proj=merc +a=6378137 +b=6356752 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"
-      z_min: 0
-      z_max: 22
-      y_origin_top: true
 
 legal_policy:
   rights: BY-NC-ND

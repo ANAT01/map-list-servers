@@ -1,0 +1,11 @@
+{
+  "tms": {
+    "url": "tiles.openseamap.org/seamark/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "type": "overlay",
+  "label": "OSM Sea",
+  "l12n": {
+    "ru": "OSM Море"
+  }
+}

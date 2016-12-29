@@ -1,0 +1,9 @@
+{
+  "tms": {
+    "url": "irs.gis-lab.info/?layers=landsat&request=GetTile&z={z}&x={x}&y={y}"
+  },
+  "label": "Landsat (Gis-Lab.info)",
+  "license": {
+    "name": "Public Domain"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tms": {
+    "url": "korona.geog.uni-heidelberg.de/tiles/asterh/x={x}&y={y}&z={z}"
+  },
+  "label": "MapSurfer ASTER GDEM-SRTM Hillshade",
+  "l12n": {
+    "ru": "MapSurfer Теневой рельеф (ASTER GDEM)"
+  },
+  "license": {
+    "name": "CC-BY-SA 2.0",
+    "link": "http://creativecommons.org/licenses/by-sa/2.0/",
+    "copyright_text": "SRTM, ASTER GDEM is a product of METI and NASA, Imagery GIScience Research Group @ Heidelberg University",
+    "copyright_link": "http://srtm.csi.cgiar.org/; https://lpdaac.usgs.gov/products/aster_policies;",
+    "terms_of_use": "http://korona.geog.uni-heidelberg.de/contact.html"
+  }
+}

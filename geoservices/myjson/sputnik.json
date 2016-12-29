@@ -1,0 +1,10 @@
+{
+  "tms": {
+    "url": "tiles.maps.sputnik.ru/tiles/kmt2/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "label": "Sputnik Map",
+  "l12n": {
+    "ru": "Спутник Карта"
+  }
+}

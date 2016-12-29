@@ -1,0 +1,6 @@
+{
+  "tms": {
+    "url": "server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Arcgis USA_Topo_Maps"
+}

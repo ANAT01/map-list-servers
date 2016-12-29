@@ -1,0 +1,15 @@
+{
+  "wms": {
+    "params": {
+      "transperent": "true",
+      "tiled": "false",
+      "format": "image/png",
+      "srs": "EPSG:900913"
+    },
+    "layers": [
+      "NG_REG_LAYER"
+    ],
+    "url": "nv1.reestri.gov.ge/geoserver/wms"
+  },
+  "label": "Georgia Cadastral [WMS]"
+}

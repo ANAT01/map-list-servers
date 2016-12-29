@@ -1,0 +1,16 @@
+{
+  "tms": {
+    "url": "korona.geog.uni-heidelberg.de/tiles/hybrid/x={x}&y={y}&z={z}"
+  },
+  "label": "MapSurfer OSM Semitransparent",
+  "l12n": {
+    "ru": "MapSurfer OSM полупрозрачный"
+  },
+  "license": {
+    "name": "CC-BY-SA 2.0",
+    "link": "http://creativecommons.org/licenses/by-sa/2.0/",
+    "copyright_text": "©OpenStreetMap contributors, ODbL, Imagery GIScience Research Group @ Heidelberg University",
+    "copyright_link": "https://www.openstreetmap.org/copyright",
+    "terms_of_use": "http://korona.geog.uni-heidelberg.de/contact.html"
+  }
+}

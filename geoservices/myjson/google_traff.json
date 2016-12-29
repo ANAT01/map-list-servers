@@ -1,0 +1,23 @@
+{
+  "tms": {
+    "mirrors": [
+      "mt0",
+      "mt1",
+      "mt2",
+      "mt3"
+    ],
+    "url": "[mirrors].google.com/vt?hl=ru&lyrs=h@159000000,traffic|seconds_into_week:-1&style=3&x={x}&y={y}&z={z}",
+    "zmax": 20
+  },
+  "label": "Google Traffic",
+  "l12n": {
+    "ru": "Трафик Google"
+  },
+  "license": {
+    "name": "",
+    "link": "https://developers.google.com/maps/licensing",
+    "copyright_text": "",
+    "copyright_link": "http://www.google.com/intl/en-us/help/legalnotices_maps.html",
+    "terms_of_use": "https://developers.google.com/maps/terms"
+  }
+}

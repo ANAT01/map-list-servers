@@ -1,0 +1,15 @@
+{
+  "tms": {
+    "mirrors": [
+      "a.tile",
+      "b.tile",
+      "c.tile",
+      "tile-a",
+      "tile-b",
+      "tile-c"
+    ],
+    "url": "[mirrors].openstreetmap.fr/hot/{z}/{x}/{y}.png",
+    "zmax": 19
+  },
+  "label": "OSM Humanitarian"
+}

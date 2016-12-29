@@ -1,0 +1,13 @@
+{
+  "tms": {
+    "url": "maps.rosreestr.ru/arcgis/rest/services/BaseMaps/BaseMap/MapServer/tile/{z}/{y}/{x}"
+  },
+  "label": "Rosreestr BaseMap",
+  "l12n": {
+    "ru": "Базовая карта Росреестра"
+  },
+  "license": {
+    "copyright_text": "© Росреестр, 2013",
+    "terms_of_use": "http://maps.rosreestr.ru/PortalOnline/terms.html"
+  }
+}

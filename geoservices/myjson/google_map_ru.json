@@ -1,0 +1,22 @@
+{
+  "tms": {
+    "mirrors": [
+      "mt0",
+      "mt1",
+      "mt2",
+      "mt3"
+    ],
+    "url": "[mirrors].google.com/vt/lyrs=m@169000000&hl=ru&x={x}&y={y}&z={z}"
+  },
+  "label": "Google Map [ru]",
+  "l12n": {
+    "ru": "Карта Google [ru]"
+  },
+  "license": {
+    "name": "",
+    "link": "https://developers.google.com/maps/licensing",
+    "copyright_text": "",
+    "copyright_link": "http://www.google.com/intl/en-us/help/legalnotices_maps.html",
+    "terms_of_use": "https://developers.google.com/maps/terms"
+  }
+}

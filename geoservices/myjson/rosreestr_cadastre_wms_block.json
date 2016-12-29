@@ -1,0 +1,22 @@
+{
+  "wms": {
+    "url": "pkk5.rosreestr.ru/arcgis/services/Cadastre/CadastreWMS/MapServer/WMSServer",
+    "params": {
+      "format": "image/png32",
+      "crs": "EPSG:3857"
+    },
+    "layers": [
+      14,
+      15,
+      16
+    ]
+  },
+  "label": "PKK Block",
+  "l12n": {
+    "ru": "ПКК Квартал"
+  },
+  "license": {
+    "copyright_text": "ПКК © Росреестр 2010-2015",
+    "terms_of_use": "http://maps.rosreestr.ru/PortalOnline/terms.html"
+  }
+}

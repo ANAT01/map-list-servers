@@ -1,0 +1,40 @@
+{
+  "gdal": {
+    "GDAL_WMS": {
+      "BandsCount": "4",
+      "Projection": "EPSG:3857",
+      "Service": {
+        "Layers": null,
+        "@name": "AGS",
+        "ServerUrl": "http://maps.rosreestr.ru/arcgis/rest/services/Cadastre/ZOUIT/MapServer",
+        "BBoxOrder": "xyXY",
+        "ImageSR": "102100",
+        "ImageFormat": "png32",
+        "Transparent": "true"
+      },
+      "ZeroBlockHttpCodes": "499,204,404",
+      "ZeroBlockOnServerException": "true",
+      "BlockSizeX": "512",
+      "BlockSizeY": "512",
+      "Referer": "http://maps.rosreestr.ru/PortalOnline/",
+      "DataWindow": {
+        "LowerRightX": "20037508.34278103",
+        "LowerRightY": "-20037508.34278103",
+        "SizeX": "40075016",
+        "SizeY": "40075016",
+        "UpperLeftY": "20037508.34278700",
+        "UpperLeftX": "-20037508.34278700"
+      },
+      "UserAgent": "Mozilla/5.0",
+      "ClampRequests": "true"
+    }
+  },
+  "label": "Rosreestr ZOUIT",
+  "l12n": {
+    "ru": "Зоны с особыми условиями использования территорий"
+  },
+  "license": {
+    "copyright_text": "© Росреестр, 2013",
+    "terms_of_use": "http://maps.rosreestr.ru/PortalOnline/terms.html"
+  }
+}
