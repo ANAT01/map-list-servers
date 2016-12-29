@@ -5,7 +5,7 @@ providers:
       name: OpenCycleMap
       desc: Used by hundreds of applications and websites from around the globe, OpenCycleMap is an award-winning global map for cycling.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/cycle/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, cycle
+      tag: color, map, openstreetmap, osm, cycle, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -14,7 +14,7 @@ providers:
       name: Transport
       desc: Recently chosen by OpenStreetMap for their front page, this map shows public transportation in great detail.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/transport/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, transport
+      tag: color, map, openstreetmap, osm, transport, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -23,7 +23,7 @@ providers:
       name: Landscape
       desc: A global style focused on information about the natural world - great for rural context.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/landscape/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, landscape
+      tag: color, map, openstreetmap, osm, landscape, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -32,7 +32,7 @@ providers:
       name: Outdoors
       desc: For all the outdoor enthusiasts - hiking, skiing and other activities.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/outdoors/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, outdoors
+      tag: color, map, openstreetmap, osm, outdoors, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -41,7 +41,7 @@ providers:
       name: Transport Dark
       desc: A dark variant of the Transport map.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/transport-dark/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, transport
+      tag: color, map, openstreetmap, osm, transport, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -50,7 +50,7 @@ providers:
       name: Spinal Map
       desc: Inspired by a classic film, this style goes all the way to 11! It demonstrates the power of custom map styles based on vector tiles, along with a tongue-in-cheek approach to cartography.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/spinal-map/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, styled
+      tag: color, map, openstreetmap, osm, styled, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -59,7 +59,7 @@ providers:
       name: Pioneer
       desc: Modern railways shown in an olden days theme.
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/pioneer/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm, railroad
+      tag: color, map, openstreetmap, osm, railroad, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -68,7 +68,7 @@ providers:
       name: Mobile Atlas
       desc: A high contrast style suited to difficult lighting conditions
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/mobile-atlas/{z}/{x}/{y}.png"
-      tag: highcontrast, map, openstreetmap, osm, atlas
+      tag: highcontrast, map, openstreetmap, osm, atlas, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
@@ -77,7 +77,7 @@ providers:
       name: Neighbourhood
       desc: All the worlds neighbourhoods on a clean map style
       url: "[tile, a.tile, b.tile, c.tile].thunderforest.com/neighbourhood/{z}/{x}/{y}.png"
-      tag: color, map, openstreetmap, osm
+      tag: color, map, openstreetmap, osm, basemap
       srs: EPSG:3857
       z_min: 0
       z_max: 22
